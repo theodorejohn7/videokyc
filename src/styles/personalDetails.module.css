@@ -1,0 +1,76 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageTitle {
+    color: #404B7C;
+ 
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.fieldLabel {
+    color: #404B7C;
+    /* font-family: Poppins; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 75px;
+    /* border: 1px solid; */
+}
+
+.formWrapper {
+    /* margin: auto; */
+   
+    width: 300px;
+}
+
+.formWrapper input {
+ 
+    width: 100%;
+}
+
+.formWrapper p {
+    margin-bottom: 4px;
+}
+
+.calendar  input{
+    border: 1px solid red;
+    width: 100%;
+    border-radius: 5px;
+    height: 44px;
+    border: 1px solid #ced4da;
+}
+
+.buttonContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.errorMessage{
+        /* border: 1px solid blue; */
+        font-size: 10px;
+        color: red;
+        margin-top: 2px;
+        margin-left: 4px;
+}
+
+.smallCalendar {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+  }
+
+  @media  (max-width: 767px) { 
+    
+
+   }
